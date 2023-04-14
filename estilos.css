@@ -1,0 +1,85 @@
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+    margin: 50px;
+    text-align: center;
+}
+
+.full {
+  width: 90%;
+   
+  height: 90%;
+  
+  background: url('/media/perroygato.png') no-repeat  50% 50%;
+
+    
+ /* background-size: cover;*/
+  margin-top: 30px;
+
+  display: table;
+  margin: auto; 
+
+  top: 20px;
+}
+
+.full-inner {
+  width: 100%;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.content {
+  color: blue;
+  max-width: 700px;
+  margin: auto;
+  padding: 40px;
+  text-align: center;
+  text-decoration-color: blue
+  ;
+}
+
+.content h1 {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 500%;
+  color:blue ;
+  text-shadow: 0 0 300px black;
+}
+
+.content a {
+  border-radius: 9px;
+  text-decoration: none;
+  color: #f9f3f4;
+  font-family: 'Century Gothic', sans-serif;
+  font-weight: bold;
+  border: 3px solid;
+  padding: 7px 13px;
+}
+
+.content a:hover {
+  color: #2196f3;
+}
+
+p {
+  font-size: 160%;
+  line-height: 200%;
+  margin:3%;
+  font-family: sans-serif;
+}
+
+h3{
+  margin: 50px;
+  text-align: center;  
+}
+
+.grupo {
+  flex-grow: calc(300);
+ 0 
+}
+
+
